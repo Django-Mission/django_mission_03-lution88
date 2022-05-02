@@ -52,8 +52,6 @@
     - 1:1문의의 is_email, is_phone가 True인 경우 email, phone 데이터 `print()` 출력
         ※ action을 추가 학습을 위한 목적으로 실제 문자, 메일은 발송하지 않습니다.
 
-    ![advanced_inquiry](https://user-images.githubusercontent.com/78908697/166303874-4895b3b0-3d75-47c0-99eb-56059f44570a.gif)
-
-
+    ![advanced_inquiry](https://user-images.githubusercontent.com/78908697/166305529-f6d7d97c-0fe8-40b0-bcec-b1f2cb37570d.gif)
 
 
