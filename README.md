@@ -15,7 +15,9 @@
     - 필터 필드 : 카테고리
 
 ![image](https://user-images.githubusercontent.com/78908697/166296737-a5051021-52f3-4a67-b2c7-e64ee58ff208.png)
+ 
 
+![basic_faq](https://user-images.githubusercontent.com/78908697/166300990-8ed6e121-2698-4e0b-b131-6d19a903eab5.gif)
 
 - 1:1문의(`Inquiry`)
     - 목록페이지 출력 필드 : 질문 제목, 카테고리, 생성 일시, 생성자
@@ -25,6 +27,9 @@
 
 - 답변(`Answer`)
     - 1:1문의 모델에 인라인모델로 추가
+
+
+
 ## ADVANCED MISSION
 ### 미션 내용 : 기본 관리자 페이지의 사용성 개선 및 답변 상태 관리 기능 추가
 
