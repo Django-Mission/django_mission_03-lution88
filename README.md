@@ -14,10 +14,10 @@
     - 검색 필드 : 제목
     - 필터 필드 : 카테고리
 
-![image](https://user-images.githubusercontent.com/78908697/166296737-a5051021-52f3-4a67-b2c7-e64ee58ff208.png)
+    ![image](https://user-images.githubusercontent.com/78908697/166296737-a5051021-52f3-4a67-b2c7-e64ee58ff208.png)
  
 
-![basic_faq](https://user-images.githubusercontent.com/78908697/166300990-8ed6e121-2698-4e0b-b131-6d19a903eab5.gif)
+    ![basic_faq](https://user-images.githubusercontent.com/78908697/166300990-8ed6e121-2698-4e0b-b131-6d19a903eab5.gif)
 
 - 1:1문의(`Inquiry`)
     - 목록페이지 출력 필드 : 질문 제목, 카테고리, 생성 일시, 생성자
@@ -28,6 +28,7 @@
 - 답변(`Answer`)
     - 1:1문의 모델에 인라인모델로 추가
 
+    ![basic_inquiry](https://user-images.githubusercontent.com/78908697/166303191-5e3e3522-698b-443b-ac83-a2d498b96c70.gif)
 
 
 ## ADVANCED MISSION
@@ -51,6 +52,7 @@
     - 1:1문의의 is_email, is_phone가 True인 경우 email, phone 데이터 `print()` 출력
         ※ action을 추가 학습을 위한 목적으로 실제 문자, 메일은 발송하지 않습니다.
 
+    ![advanced_inquiry](https://user-images.githubusercontent.com/78908697/166303874-4895b3b0-3d75-47c0-99eb-56059f44570a.gif)
 
 
 
