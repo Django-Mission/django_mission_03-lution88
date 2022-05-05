@@ -24,6 +24,7 @@ class Inquiry(models.Model):
         ('2', '계정'),
         ('3', '기타'),
     ]
+    
     STATUS_CHOICES=[
         ('1', '문의 등록'),
         ('2', '접수 완료'),
@@ -39,6 +40,7 @@ class Inquiry(models.Model):
     image = models.ImageField(verbose_name='이미지', blank=True, null=True)
     created_at = models.DateTimeField(verbose_name='생성일', auto_now_add=True)
     updated_at = models.DateTimeField(verbose_name='수정일', auto_now=True)
+    
     status = models.CharField(verbose_name='상태', max_length=2, choices=STATUS_CHOICES)
     
     created_by = models.ForeignKey(to=User, on_delete=models.CASCADE, related_name='inquiry_created_by')

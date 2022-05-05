@@ -31,7 +31,7 @@ def send_data(modelsadmin, request, queryset):
 class InquiryModelAdmin(admin.ModelAdmin):
     list_display = ('title', 'status', 'category', 'created_at', 'created_by')
     list_filter = ('category', 'status', )
-    search_fields = ('title', 'email', 'message', )
+    search_fields = ('created_by__username', 'title', 'email', 'message', )
     search_help_text = '게시판 제목, 이메일, 전화번호 검색이 가능합니다.'
     inlines = [AsnwerInline]
     
